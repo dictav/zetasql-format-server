@@ -1,6 +1,6 @@
 load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 load("@bazel_tools//tools/build_defs/repo:git.bzl", "git_repository")
-git_repository(name = "com_google_zetasql", remote = "https://github.com/apstndb/zetasql.git", commit = "a7485ba1e180b2c1330dc57c2d061faffea6b984")
+git_repository(name = "com_google_zetasql", remote = "https://github.com/dictav/zetasql.git", commit = "f4b7df010ae94941a984930a82175ee8836d9c0e")
 
 load("@com_google_zetasql//:zetasql_deps.bzl", "zetasql_deps")
 zetasql_deps()
